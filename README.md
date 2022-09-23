@@ -5,7 +5,7 @@ integer n. If n is even, devide by 2. If n is odd, multiply by 3 and add 1. Repe
 process with the new value of n, terminating when n = 1. For example, the following 
 sequence of numbers will be generated for n = 22:
 
-22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+ <pre>22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1</pre>
 
 It is conjectured (but not yet proven) that this algorithm will terminate at n = 1 for
 every integer n. Still, the conjecture holds for all integers up to at least 1,000,000.
@@ -24,15 +24,10 @@ appeared in the input and then the maximum cycle length for integers between and
 including i and j. These three numbers should be separated by one space, with all three
 numbers on one line and with one line of output for each line of input.
 
-Sample Input			
-
-1 10, 
-100 200, 			
-201 210,			
-900 1000			
-
-Sample Output
-1 10 20,
-100 200 125,
-201 210 89,
-900 1000 174,
+<pre>
+Sample Input      Sample Output
+1 10              1 10 20
+100 200           100 200 125
+201 210           201 210 89
+900 1000			    900 1000 174
+</pre>
